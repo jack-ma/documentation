@@ -230,6 +230,17 @@ docs/zero/zero/os-config/rsetup.md @CodeChenL
 docs/zero/zero/accessories/pd-30w.md @CodeChenL
 static/img/zero/zero/zero-block-digram.webp.webp @CodeChenL
 docs/zero/zero/hardware-design/hardware-interface.md @CodeChenL
+docs/zero/zero/low-level-dev/erase-emmc.md @CodeChenL
+docs/zero/zero/low-level-dev/install-os-on-emmc.md @CodeChenL
+docs/zero/zero/low-level-dev/README.md @CodeChenL
+docs/zero/zero/getting-started/preparation.md @CodeChenL
+docs/zero/zero/radxa-os/social.md @CodeChenL
+docs/zero/zero/radxa-os/headless.md @CodeChenL
+docs/zero/zero/radxa-os/office.md @CodeChenL
+docs/zero/zero/low-level-dev/u-boot.md @CodeChenL
+docs/zero/zero/getting-started/README.md @CodeChenL
+docs/zero/zero/low-level-dev/kernel.md @CodeChenL
+docs/zero/zero/app-development/gpiod.md @CodeChenL
 .github/workflows/deploy.yaml @CodeChenL
 docs/rock4/FAQ.md @RadxaYuntian
 i18n/en/docusaurus-plugin-content-docs/current/rock4/FAQ.md @RadxaYuntian

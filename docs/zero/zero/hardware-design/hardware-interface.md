@@ -117,5 +117,5 @@ ZERO板载了一个 WIFI/BT 模块，可用于连接 WIFI 和蓝牙
 
 ## USB BOOT 按钮
 
-ZERO 支持 USB 镜像下载烧录模式，这是将 eMMC 映射为 USB 存储设备的一种特殊操作模式。  
-当需要把镜像写到eMMC 上时，需要使用 USB BOOT 按钮进入 USB 镜像下载烧录模式。
+ZERO 支持 Maskrom 模式，这是 CPU 等待 USB OTG 端口命令的一种特殊操作模式。
+当需要把镜像写到 eMMC 上时，需要使用 Maskrom 按钮进入 Maskrom 模式。
