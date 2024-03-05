@@ -6,14 +6,61 @@ sidebar_position: 5
 
 ## 硬件设计
 
-<!-- 历史版本也要列出，按照版本号分开列出 -->
+### 1.3 最终原型版本
+
+- [v1.3 schematic pdf](https://dl.radxa.com/zero/docs/hw/RADAX_ZERO_V13_SCH_20210309.pdf) - 下载 Radxa ZERO v1.3 的原理图
+- [v1.3 SMD pdf](https://dl.radxa.com/zero/docs/hw/RADAX_ZERO_V13_SMD_20210309.pdf) - 下载 Radxa ZERO v1.3 的点位图
+
+### 1.4 首次量产版本
+
+- [v1.4 schematic pdf](https://dl.radxa.com/zero/docs/hw/radxa_zero_v1400_schematic.pdf) - 下载 Radxa ZERO v1.4 的原理图
+- [v1.4 SMD pdf](https://dl.radxa.com/zero/docs/hw/radxa_zero_v1400_smd.pdf) - 下载 Radxa ZERO v1.4 的点位图
+- [2D dxf for top and bottom](https://dl.radxa.com/zero/docs/hw/Radxa_ZERO_2D_v1.4_top_bottom.zip) - 下载 Radxa ZERO v1.4 的 2D CAD 文件
+
+修正了 TYPE-C 连接器的占位面积
+缩小了 ESD0402 的占位面积
+将 1L2 和 1L4 分开，以降低电路短路的可能性
+用 CH482 代替 FUSB340
+电源 LED 现在可由 GPIOAO_8 控制
+因此，引脚 35（GPIOAO_8）没有连接到 40 引脚针座上
+
+### 1.5 微调
+
+由于芯片短缺，改用其他 USB 配置通道控制器
+
+### 1.51 微调
+
+电源 LED 现在可由 GPIOAO_10 控制
+因此，引脚 35（GPIOAO_8）现在连接到了 40 针针座上
+引脚 38（GPIOAO_10）现在没有连接到 40 针针座上
 
 ## 刷机工具
 
 ## 操作系统镜像
 
-<!-- 这里只列出 Linux 相关的镜像，包括第三方镜像， Android 及第三方 Android 镜像放到 Android 目录 -->
+- [Radxa ZERO Debian Build 23](https://github.com/radxa-build/radxa-zero/releases/download/b23/radxa-zero_debian_bullseye_kde_b23.img.xz)
+
+:::caution
+除了上面的镜像经过官方充分测试外，其他镜像未经过严格测试，可能会存在未知问题，仅用于评估使用。
+:::
+
+更多镜像请查看： [Radxa ZERO Release](https://github.com/radxa-build/radxa-zero/releases)
+
+- [Radxa ZERO Ubuntu Build 23](https://github.com/radxa-build/radxa-zero/releases/download/b23/radxa-zero_ubuntu_jammy_kde_b23.img.xz)
+- [openSUSE Tumbleweed JeOS](http://download.opensuse.org/ports/aarch64/tumbleweed/appliances/openSUSE-Tumbleweed-ARM-JeOS-radxazero.aarch64.raw.xz)
+- [Slarm64 Core (unofficial slackware)](https://dl.slarm64.org/slackware/images/radxa_zero/slarm64-current-aarch64-core-radxa_zero-6.4.8-build-20230806.img.zst)
+- [Slarm64 Server (unofficial slackware)](https://dl.slarm64.org/slackware/images/radxa_zero/slarm64-current-aarch64-server-radxa_zero-6.4.8-build-20230806.img.zst)
+- [Slarm64 XFCE (unofficial slackware)](https://dl.slarm64.org/slackware/images/radxa_zero/slarm64-current-aarch64-xfce-radxa_zero-6.4.8-build-20230806.img.zst)
+- [Slarm64 Enlightenment (unofficial slackware)](https://dl.slarm64.org/slackware/images/radxa_zero/slarm64-current-aarch64-enlightenment-radxa_zero-5.14.5-build-20210917.img.zst)
+- [CRUX-ARM](https://dl.slarm64.org/crux/images/radxa_zero/crux-arm-3.6-aarch64-core-radxa_zero-5.19.1-build-20220814.img.zst)
+- [Manjaro Gnome](https://github.com/manjaro-arm/radxa-zero-images/releases/download/22.02/Manjaro-ARM-gnome-radxa-zero-22.02.img.xz)
+- [Manjaro KDE](https://github.com/manjaro-arm/radxa-zero-images/releases/download/22.02/Manjaro-ARM-kde-plasma-radxa-zero-22.02.img.xz)
+- [Manjaro Minimal](https://github.com/manjaro-arm/radxa-zero-images/releases/download/22.02/Manjaro-ARM-minimal-radxa-zero-22.02.img.xz)
+- [Manjaro More Desktop Environment](https://github.com/manjaro-arm/radxa-zero-images/releases/tag/22.02)
+- [RetroPie Test Image](https://drive.google.com/file/d/1OTmNlOHlvDkFX0XA6VYzUV8syFuTo3Cx/view?usp=sharing)
+- [TwisterOS Focal Beta5](https://drive.google.com/file/d/1T6GHK3DNbogkEXu7I7-kWqRdv7vltVDC/view?usp=sharing)
 
 ## 质量认证
 
-## 参考文档
+- [CE RED - EU](https://dl.radxa.com/zero/docs/compliance/radxa_zero_ce_red_report.zip)
+- [FCC ID - US](https://fccid.io/2A3PA-RADXA-ZERO)

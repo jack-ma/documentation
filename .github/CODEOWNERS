@@ -227,6 +227,8 @@ docs/template/module/radxa-os/install-os.mdx @peterwang2050
 docs/zero/zero/accessories/README.md @CodeChenL
 docs/zero/zero/getting-started/install-os.md @CodeChenL
 docs/zero/zero/os-config/rsetup.md @CodeChenL
+docs/zero/zero/accessories/pd-30w.md @CodeChenL
+static/img/zero/zero/zero-block-digram.webp.webp @CodeChenL
 .github/workflows/deploy.yaml @CodeChenL
 docs/rock4/FAQ.md @RadxaYuntian
 i18n/en/docusaurus-plugin-content-docs/current/rock4/FAQ.md @RadxaYuntian
