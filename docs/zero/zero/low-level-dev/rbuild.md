@@ -4,4 +4,6 @@ sidebar_position: 3
 
 # 系统编译
 
-<!-- 引用组件 -->
+import RBUILD from '../../../common/dev/\_rbuild.mdx';
+
+<RBUILD />
