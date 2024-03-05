@@ -4,4 +4,6 @@ sidebar_position: 2
 
 # Samba
 
-<!-- 引用组件 -->
+import SAMBA from '../../../common/apps/\_samba.mdx';
+
+<SAMBA />

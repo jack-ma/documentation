@@ -203,6 +203,8 @@ static/img/common/qt/qt_device.webp @nascs
 docs/rock5/rock5b/app-development/qt_cross_compile.md @nascs
 i18n/en/docusaurus-plugin-content-docs/current/rock5/rock5b/accessories/display_use.md @nascs
 docs/common/radxa-os/_remote-access.mdx @u7985
+docs/zero/zero/apps-deployment/docker.md @CodeChenL
+docs/zero/zero/other-os/android/remote-login.md @CodeChenL
 .github/workflows/deploy.yaml @CodeChenL
 docs/rock4/FAQ.md @RadxaYuntian
 i18n/en/docusaurus-plugin-content-docs/current/rock4/FAQ.md @RadxaYuntian

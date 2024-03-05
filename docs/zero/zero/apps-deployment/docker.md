@@ -4,4 +4,6 @@ sidebar_position: 1
 
 # Docker
 
-<!-- 引用组件 -->
+import DOCKER from '../../../common/apps/\_docker.mdx';
+
+<DOCKER />
