@@ -80,9 +80,9 @@ sidebar_position: 40
 
 ## 文档使用指引
 
-<!-- :::tip
+:::tip
 除了下面的 **其他系统** 目录外，其他内容都是围绕 Radxa OS (Radxa 基于 Debian 定制的系统) 展开。
-::: -->
+:::
 
 ### [快速上手](/zero/zero/getting-started)
 
@@ -113,9 +113,9 @@ sidebar_position: 40
 
 介绍 uboot, kernel, debian os 编译打包等内容。
 
-<!-- ### [其他系统](/zero/zero/other-os)
+### [其他系统](/zero/zero/other-os)
 
-介绍非 Radxa OS的其他系统，例如 Android。 -->
+介绍非 Radxa OS的其他系统，例如 Android。
 
 ### [配件列表](/zero/zero/accessories)
 
