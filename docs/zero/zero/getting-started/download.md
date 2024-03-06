@@ -15,7 +15,7 @@ sidebar_position: 5
 
 - [v1.4 schematic pdf](https://dl.radxa.com/zero/docs/hw/radxa_zero_v1400_schematic.pdf) - 下载 Radxa ZERO v1.4 的原理图
 - [v1.4 SMD pdf](https://dl.radxa.com/zero/docs/hw/radxa_zero_v1400_smd.pdf) - 下载 Radxa ZERO v1.4 的点位图
-- [2D dxf for top and bottom](https://dl.radxa.com/zero/docs/hw/Radxa_ZERO_2D_v1.4_top_bottom.zip) - 下载 Radxa ZERO v1.4 的 2D CAD 文件
+- [2D dxf for top and bottom](https://dl.radxa.com/zero/docs/hw/radxa_zero_v1400_2d.zip) - 下载 Radxa ZERO v1.4 的 2D CAD 文件
 
 修正了 TYPE-C 连接器的占位面积
 缩小了 ESD0402 的占位面积
@@ -56,16 +56,15 @@ sidebar_position: 5
 
 - [Radxa ZERO Ubuntu Build 23](https://github.com/radxa-build/radxa-zero/releases/download/b23/radxa-zero_ubuntu_jammy_kde_b23.img.xz)
 - [openSUSE Tumbleweed JeOS](http://download.opensuse.org/ports/aarch64/tumbleweed/appliances/openSUSE-Tumbleweed-ARM-JeOS-radxazero.aarch64.raw.xz)
-- [Slarm64 Core (unofficial slackware)](https://dl.slarm64.org/slackware/images/radxa_zero/slarm64-current-aarch64-core-radxa_zero-6.4.8-build-20230806.img.zst)
-- [Slarm64 Server (unofficial slackware)](https://dl.slarm64.org/slackware/images/radxa_zero/slarm64-current-aarch64-server-radxa_zero-6.4.8-build-20230806.img.zst)
-- [Slarm64 XFCE (unofficial slackware)](https://dl.slarm64.org/slackware/images/radxa_zero/slarm64-current-aarch64-xfce-radxa_zero-6.4.8-build-20230806.img.zst)
-- [Slarm64 Enlightenment (unofficial slackware)](https://dl.slarm64.org/slackware/images/radxa_zero/slarm64-current-aarch64-enlightenment-radxa_zero-5.14.5-build-20210917.img.zst)
+- [Slarm64 Core (unofficial slackware)](http://dl.slarm64.org/slackware/images/radxa_zero/slarm64-current-aarch64-core-radxa_zero-6.4.8-build-20230806.img.zst)
+- [Slarm64 Server (unofficial slackware)](http://dl.slarm64.org/slackware/images/radxa_zero/slarm64-current-aarch64-server-radxa_zero-6.4.8-build-20230806.img.zst)
+- [Slarm64 XFCE (unofficial slackware)](http://dl.slarm64.org/slackware/images/radxa_zero/slarm64-current-aarch64-xfce-radxa_zero-6.4.8-build-20230806.img.zst)
+- [Slarm64 Enlightenment (unofficial slackware)](http://dl.slarm64.org/slackware/images/radxa_zero/slarm64-current-aarch64-enlightenment-radxa_zero-5.14.5-build-20210917.img.zst)
 - [CRUX-ARM](https://dl.slarm64.org/crux/images/radxa_zero/crux-arm-3.6-aarch64-core-radxa_zero-5.19.1-build-20220814.img.zst)
 - [Manjaro Gnome](https://github.com/manjaro-arm/radxa-zero-images/releases/download/22.02/Manjaro-ARM-gnome-radxa-zero-22.02.img.xz)
 - [Manjaro KDE](https://github.com/manjaro-arm/radxa-zero-images/releases/download/22.02/Manjaro-ARM-kde-plasma-radxa-zero-22.02.img.xz)
 - [Manjaro Minimal](https://github.com/manjaro-arm/radxa-zero-images/releases/download/22.02/Manjaro-ARM-minimal-radxa-zero-22.02.img.xz)
 - [Manjaro More Desktop Environment](https://github.com/manjaro-arm/radxa-zero-images/releases/tag/22.02)
-- [RetroPie Test Image](https://drive.google.com/file/d/1OTmNlOHlvDkFX0XA6VYzUV8syFuTo3Cx/view?usp=sharing)
 - [TwisterOS Focal Beta5](https://drive.google.com/file/d/1T6GHK3DNbogkEXu7I7-kWqRdv7vltVDC/view?usp=sharing)
 
 ## 质量认证

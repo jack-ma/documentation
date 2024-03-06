@@ -206,12 +206,15 @@ docs/common/radxa-os/_remote-access.mdx @u7985
 docs/zero/zero/apps-deployment/docker.md @CodeChenL
 docs/zero/zero/other-os/android/remote-login.md @CodeChenL
 docs/zero/zero/other-os/android/install-os.md @CodeChenL
-docs/zero/zero/os-config/README.md @CodeChenL
-docs/zero/zero/radxa-os/network.md @CodeChenL
+docs/zero/zero3/other-os/android/lowlevel-development.md @CodeChenL
+docs/zero/zero3/other-os/android/download.md @CodeChenL
+docs/zero/zero3/other-os/android/preparation.md @CodeChenL
+docs/zero/zero3/other-os/android/README.md @CodeChenL
+docs/zero/zero/os-config/README.md @CodeChenL @CodeChenL
+docs/zero/zero/radxa-os/network.md @CodeChenL @CodeChenL
 docs/zero/zero/low-level-dev/rbuild.md @CodeChenL
 docs/zero/zero/os-config/bootparam.md @CodeChenL
 docs/zero/zero/radxa-os/remote-access.md @CodeChenL
-docs/zero/zero/other-os/android/low-level-dev.md @CodeChenL
 docs/zero/zero/getting-started/_maskrom.mdx @CodeChenL
 docs/zero/zero/radxa-os/video.md @CodeChenL
 docs/compute-module/cm5/radxa-os/sys-config/README.md @Ken-Vamrs

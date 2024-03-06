@@ -15,7 +15,7 @@ sidebar_position: 5
 
 - [v1.4 schematic pdf](https://dl.radxa.com/zero/docs/hw/radxa_zero_v1400_schematic.pdf) - 下载 Radxa ZERO v1.4 的原理图
 - [v1.4 SMD pdf](https://dl.radxa.com/zero/docs/hw/radxa_zero_v1400_smd.pdf) - 下载 Radxa ZERO v1.4 的点位图
-- [2D dxf for top and bottom](https://dl.radxa.com/zero/docs/hw/Radxa_ZERO_2D_v1.4_top_bottom.zip) - 下载 Radxa ZERO v1.4 的 2D CAD 文件
+- [2D dxf for top and bottom](https://dl.radxa.com/zero/docs/hw/radxa_zero_v1400_2d.zip) - 下载 Radxa ZERO v1.4 的 2D CAD 文件
 
 修正了 TYPE-C 连接器的占位面积
 缩小了 ESD0402 的占位面积
