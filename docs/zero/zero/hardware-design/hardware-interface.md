@@ -104,7 +104,7 @@ HDMI的输出分辨率取决于显示器，Radxa ZERO会根据显示器调整到
 
 ## eMMC
 
-板载的eMMC是板子背面的那个大的贴片芯片，用于 eMMC 启动或数据存储。我们提供从无到 128GB 的选项。
+板载的 [eMMC位于开发板背面](../hardware-design/hardware-interface#接口总览)，用于 eMMC 启动或数据存储，您可以检查一下您的开发板是否具有这个元件。我们提供从无到 128GB 的选项。
 
 ## WIFI/BT
 
