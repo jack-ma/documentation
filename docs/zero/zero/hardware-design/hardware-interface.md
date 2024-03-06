@@ -21,9 +21,8 @@ ZERO 有一个 32 bits LPDDR 4 芯片。ZERO 提供 512MB、1GB、2GB 和 4GB �
 
 ## USB OTG（电源接口）
 
-Radxa ZERO 被设计为低功耗的 ARM 单板计算机。它支持以下电源输入：  
-Radxa ZERO 的功耗比较低，可以直接使用电脑USB供电，所以不再需要准备单独的电源适配器。如果独立使用Radxa ZERO，可以使用 5V，1A（至少）的电源适配器。  
-使用电脑USB供电请使用USB3.0（可提供900mA电流），USB2.0只有500mA的电流会导致板子不稳定。  
+ZERO 采用 Type-C 接口供电，输入电压为5V。  
+推荐使用官方的 Radxa Power PD 30W 。<img src="/img/accessories/pd-30w.webp" alt="Radxa Power PD 30W" width="300" />  
 此接口可用于连接键盘、鼠标、U盘等外设。
 
 ## TYPE-c USB3.0

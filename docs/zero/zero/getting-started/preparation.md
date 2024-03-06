@@ -10,8 +10,8 @@ sidebar_position: 1
 
 ### 电源
 
-Radxa ZERO 的功耗比较低，可以直接使用电脑USB供电，所以不再需要准备单独的电源适配器。如果独立使用Radxa ZERO，可以使用 5V，1A（至少）的电源适配器。
-使用电脑USB供电请使用USB3.0（可提供900mA电流），USB2.0只有500mA的电流会导致板子不稳定。
+ZERO 采用 Type-C 接口供电，输入电压为5V。  
+推荐使用官方的 Radxa Power PD 30W 。<img src="/img/accessories/pd-30w.webp" alt="Radxa Power PD 30W" width="300" />
 
 ### 启动介质
 
