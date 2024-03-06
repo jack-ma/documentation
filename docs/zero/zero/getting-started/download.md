@@ -36,6 +36,14 @@ sidebar_position: 5
 
 ## 刷机工具
 
+- [Zagdig](https://zadig.akeo.ie/)：Windows Maskrom 驱动。
+- [RZ USB Boot Helper](https://dl.radxa.com/zero/tools/windows/RZ_USB_Boot_Helper_V1.0.0.zip)：Windows bootloader 加载工具。
+- [factory-loader.img](https://dl.radxa.com/zero/images/loader/factory-loader.img)：用于在 Windows 上清除 eMMC。不推荐使用。
+- [radxa-zero-erase-emmc.bin](https://dl.radxa.com/zero/images/loader/radxa-zero-erase-emmc.bin)：自动擦除 eMMC，然后将 eMMC 作为 USB 存储设备显示。这是烧录 Linux 映像的推荐方法。
+- [rz-fastboot-loader.bin](https://dl.radxa.com/zero/images/loader/rz-fastboot-loader.bin)：启用 fastboot 模式，但不能用于安装我们的官方 Android 系统。
+- [android-bootloader.img](https://dl.radxa.com/zero/images/loader/android-bootloader.img)：与我们的官方 Android 映像中的 bootloader.img 相同。某些发行版会使用此引导加载器。
+- [rz-udisk-loader.bin](https://dl.radxa.com/zero/images/loader/rz-udisk-loader.bin)：将嵌入式 eMMC 作为 USB 大容量存储设备。
+
 ## 操作系统镜像
 
 - [Radxa ZERO Debian Build 23](https://github.com/radxa-build/radxa-zero/releases/download/b23/radxa-zero_debian_bullseye_kde_b23.img.xz)
