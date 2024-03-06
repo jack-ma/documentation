@@ -2,8 +2,6 @@
 sidebar_position: 5
 ---
 
-import Etcher from '../../../common/general/\_etcher.mdx'
-
 # 新手入门
 
 本指南是为 瑞莎 ZERO 初级使用者编写，可以帮助您了解 瑞莎 ZERO 基本的准备和设置。
@@ -83,6 +81,8 @@ bash <(curl -s https://raw.githubusercontent.com/corbindavenport/nexus-tools/mas
 
 </TabItem>
 </Tabs>
+</TabItem>
+</Tabs>
 
 ### 烧录固件
 
@@ -142,4 +142,4 @@ sudo boot-g12.py radxa-zero2-2pro-erase-emmc.bin
 2. 将 USB-A 转 USB-C 线缆的 USB-A 端口接入 PC, USB-C 接口插入 ZERO 的 OTG 端口
 3. 松开 USB BOOT 按键
 
-![ZERO Maskrom](/img/zero/zero/Zero_ports.webp))
+![ZERO Maskrom](/img/zero/zero/Zero_ports.webp)

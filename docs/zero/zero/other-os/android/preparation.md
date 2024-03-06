@@ -16,7 +16,7 @@ ZERO 采用 Type-C 接口供电，输入电压为5V。
 ### 启动介质
 
 板载的eMMC 或 sd卡  
-如果开发板没有板载eMMC则需要准备一个至少8GB的sd卡. [eMMC位于开发板背面](../hardware-design/hardware-interface#接口总览)，您可以检查一下您的开发板是否具有这个元件。  
+如果开发板没有板载eMMC则需要准备一个至少8GB的sd卡. [eMMC位于开发板背面](../../hardware-design/hardware-interface#接口总览)，您可以检查一下您的开发板是否具有这个元件。  
 如果需要安装带有桌面环境的镜像，请使用至少16GB的sd卡，推荐使用32GB。
 
 ### microSD 读卡器
@@ -34,7 +34,7 @@ ZERO 板载一个 ap6212/ap6256/aw-cm256sm WiFi/BT 模块。
 
 ### Type-C Hub
 
-Radxa ZERO 有一个板载 [Type-C USB3.0接口](../hardware-design/hardware-interface#接口总览)。这个接口支持通过 USB Type-C hub 转出 Type-A 口和有线网(如果 hub 支持)，但是不具备视频输出功能。
+Radxa ZERO 有一个板载 [Type-C USB3.0接口](../../hardware-design/hardware-interface#接口总览)。这个接口支持通过 USB Type-C hub 转出 Type-A 口和有线网(如果 hub 支持)，但是不具备视频输出功能。
 
 ### USB 鼠标和键盘
 

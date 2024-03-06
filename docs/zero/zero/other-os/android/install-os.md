@@ -2,8 +2,6 @@
 sidebar_position: 2
 ---
 
-import Etcher from '../../../common/general/\_etcher.mdx'
-
 # 安装操作系统
 
 ## 准备工作
