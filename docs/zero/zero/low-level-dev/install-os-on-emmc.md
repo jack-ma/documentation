@@ -2,26 +2,35 @@
 sidebar_position: 5
 ---
 
-# 新手入门
-
-本指南是为 瑞莎 ZERO 初级使用者编写，可以帮助您了解 瑞莎 ZERO 基本的准备和设置。
-当您拿到一块 瑞莎 ZERO 主板时，建议您首先查看印在电路板上面的型号和硬件版本。
+# 安装系统到 eMMC
 
 ## 准备工作
 
-- 板载 eMMC 的 ZERO
-- 电脑
-- USB-A 转 USB-C 线：
-  用于 `fastboot`/`adb` 命令和 maskrom 模式通信，线刷时需要使用到此配件。
+- 1x USB 线 （一端 USB C，一端 USB A）
+- 1x 5V 电源适配器 (推荐使用 [Radxa Power PD30W](/accessories/pd_30w))
 
-## 系统安装
+## 镜像下载
+
+请到 [资源下载汇总](/zero/zero3/getting-started/download.md) 下载对应的镜像文件
+
+### 进入 Maskrom 模式
+
+请按以下步骤进入 Maskrom 模式：
+
+1. 按住 USB BOOT 按键
+2. 将 USB-A 转 USB-C 线缆的 USB-A 端口接入 PC, USB-C 接口插入 ZERO 的 OTG 端口
+3. 松开 USB BOOT 按键
+
+![ZERO Maskrom](/img/zero/zero/Zero_ports.webp)
+
+## 安装系统到 eMMC
 
 ### 环境准备
 
 <Tabs queryString="host_os">
 <TabItem value="Windows">
 
-1. 将瑞莎 ZERO 以 [Maskrom 模式](#maskrom-模式)连接电脑
+1. 将瑞莎 ZERO 以 [Maskrom 模式](#进入-maskrom-模式)连接电脑
 
 2. 下载并安装 [Zagdig](https://zadig.akeo.ie/) USB 驱动
 
@@ -64,6 +73,12 @@ brew install python lsusb libusb
 pip3 install pyamlboot
 ```
 
+类似于 Windows 平台，您也可以在终端中运行以下命令，使用 nexus-tools 安装 fastboot，如果不需要这些，也可以跳过这一步：
+
+```bash
+bash <(curl -s https://raw.githubusercontent.com/corbindavenport/nexus-tools/master/install.sh)
+```
+
 </TabItem>
 <TabItem value="Linux">
 
@@ -100,22 +115,7 @@ bash <(curl -s https://raw.githubusercontent.com/corbindavenport/nexus-tools/mas
 </TabItem>
 <TabItem value="Linux/MacOS">
 
-在此平台下，您可以使用 boot-g12.py 工具。  
-安装 pyamlboot:  
-Mac：
-
-```bash
-brew install python lsusb libusb
-pip3 install pyamlboot
-```
-
-linux：
-
-```bash
-sudo apt update
-sudo apt install python3-pip
-sudo pip3 install pyamlboot
-```
+在此平台下，您可以使用 boot-g12.py 工具。
 
 运行以下命令来进行烧录：
 
@@ -133,13 +133,3 @@ sudo boot-g12.py radxa-zero2-2pro-erase-emmc.bin
 
 </TabItem>
 </Tabs>
-
-### Maskrom 模式
-
-请按以下步骤进入 Maskrom 模式：
-
-1. 按住 Maskrom 按键
-2. 将 USB-A 转 USB-C 线缆的 USB-A 端口接入 PC, USB-C 接口插入 ZERO 的 OTG 端口
-3. 松开 USB BOOT 按键
-
-![ZERO Maskrom](/img/zero/zero/Zero_ports.webp)
