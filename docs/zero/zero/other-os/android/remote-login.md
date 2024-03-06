@@ -10,7 +10,7 @@ import Serial from "../../../../common/general/\_serial.mdx"
 
 ## 串口登录
 
-<Serial platform="rk" />
+<Serial platform="aml" />
 
 ## Adb 登录
 
@@ -20,10 +20,21 @@ ADB是一个连接 Android 设备与电脑的桥梁，用于在电脑上对 Andr
 
 #### 要求
 
+1. 一条USB 线
+2. 一台有安装 ADB 工具的电脑或笔记本
+3. 一个 Radxa ZERO
+
 #### 步骤
 
-### 无线登录
+1. 用 USB 线连接计算机的 USB 接口和 Radxa ZERO 的 OTG Type C 接口
+2. 打开计算机终端输入 adb devices 确认识别到 Radxa ZERO ，
+   输入 adb shell 登录
 
-Android 11 版本以后支持无线 ADB 。
+```bash
+$ adb devices
+  List of devices attached
+  1234567890      device
 
-#### 要求
+$ adb shell
+  faraday:/ $
+```
