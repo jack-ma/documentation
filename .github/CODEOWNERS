@@ -243,6 +243,9 @@ docs/zero/zero/low-level-dev/kernel.md @CodeChenL
 docs/zero/zero/app-development/gpiod.md @CodeChenL
 docs/zero/zero/README.md @CodeChenL
 docs/zero/zero/low-level-dev/serial.md @CodeChenL
+static/img/zero/zero/zero-block-digram.webp @CodeChenL
+docs/zero/zero/getting-started/download.md @CodeChenL
+docs/zero/zero/getting-started/accessory-usage.md @CodeChenL
 .github/workflows/deploy.yaml @CodeChenL
 docs/rock4/FAQ.md @RadxaYuntian
 i18n/en/docusaurus-plugin-content-docs/current/rock4/FAQ.md @RadxaYuntian
