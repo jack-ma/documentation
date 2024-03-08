@@ -250,6 +250,17 @@ static/img/zero/zero/zero-block-digram.webp @CodeChenL
 docs/zero/zero/getting-started/download.md @CodeChenL
 docs/zero/zero/getting-started/accessory-usage.md @CodeChenL
 .github/workflows/deploy.yaml @CodeChenL
+i18n/en/docusaurus-plugin-content-docs/current/zero/zero/hardware-design/hardware-interface.md @CodeChenL
+i18n/en/docusaurus-plugin-content-docs/current/zero/zero/os-config/README.md @CodeChenL
+i18n/en/docusaurus-plugin-content-docs/current/zero/zero/radxa-os/office.md @CodeChenL
+i18n/en/docusaurus-plugin-content-docs/current/zero/zero/radxa-os/headless.md @CodeChenL
+i18n/en/docusaurus-plugin-content-docs/current/zero/zero/accessories/pd-30w.md @CodeChenL
+i18n/en/docusaurus-plugin-content-docs/current/zero/zero/radxa-os/autologin.md @CodeChenL
+i18n/en/docusaurus-plugin-content-docs/current/zero/zero/radxa-os/display.md @CodeChenL
+i18n/en/docusaurus-plugin-content-docs/current/zero/zero/low-level-dev/install-os-on-emmc.md @CodeChenL
+i18n/en/docusaurus-plugin-content-docs/current/zero/zero/os-config/rsetup.md @CodeChenL
+i18n/en/docusaurus-plugin-content-docs/current/zero/zero/radxa-os/user.md @CodeChenL
+i18n/en/docusaurus-plugin-content-docs/current/zero/zero/accessories/README.md @CodeChenL
 docs/rock4/FAQ.md @RadxaYuntian
 i18n/en/docusaurus-plugin-content-docs/current/rock4/FAQ.md @RadxaYuntian
 i18n/en/docusaurus-plugin-content-docs/current/rock3/rock3c/radxa-os/audio.md @Radxa-Alvin
