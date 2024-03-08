@@ -11,7 +11,7 @@ sidebar_position: 5
 
 ## 镜像下载
 
-请到 [资源下载汇总](/zero/zero3/getting-started/download.md) 下载对应的镜像文件
+请到 [资源下载汇总](/zero/zero/getting-started/download.md) 下载对应的镜像文件
 
 ### 进入 Maskrom 模式
 
@@ -120,13 +120,13 @@ bash <(curl -s https://raw.githubusercontent.com/corbindavenport/nexus-tools/mas
 运行以下命令来进行烧录：
 
 ```bash
-boot-g12.py radxa-zero2-2pro-erase-emmc.bin
+boot-g12.py radxa-zero-erase-emmc.bin
 ```
 
 在 Linux 平台下，还需要增加 `sudo` 以获取权限：
 
 ```bash
-sudo boot-g12.py radxa-zero2-2pro-erase-emmc.bin
+sudo boot-g12.py radxa-zero-erase-emmc.bin
 ```
 
 在此之后，您的电脑将会将瑞莎 ZERO 识别为一个 USB 存储设备，您只需按照[操作系统安装指南](../getting-started/install-os)中的操作将系统镜像烧录其中，再正常启动即可。

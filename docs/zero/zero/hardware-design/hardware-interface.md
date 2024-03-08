@@ -108,7 +108,7 @@ HDMI的输出分辨率取决于显示器，Radxa ZERO会根据显示器调整到
 
 ## WIFI/BT
 
-ZERO板载了一个 WIFI/BT 模块，可用于连接 WIFI 和蓝牙
+ZERO 板载一个 ap6212/ap6256/aw-cm256sm WiFi/BT 模块。
 
 ## MicroSD 卡槽
 
