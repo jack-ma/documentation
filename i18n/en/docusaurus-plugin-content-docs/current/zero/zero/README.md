@@ -48,11 +48,11 @@ sidebar_position: 40
     </tr>
     <tr>
         <td align="center">Display</td>
-        <td colspan="2" align="center">Provides Micro HDMI interface</td>
+        <td colspan="2" align="center">Micro HDMI x 1，4K60p</td>
     </tr>
     <tr>
         <td align="center">Wireless</td>
-        <td align="center">One ap6212/ap6256/aw-cm256sm WIFI/BT module on board</td>
+        <td align="center">ap6212/ap6256/aw-cm256sm WIFI/BT module</td>
     </tr>
     <tr>
         <td align="center">USB</td>

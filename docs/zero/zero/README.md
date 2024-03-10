@@ -48,11 +48,11 @@ sidebar_position: 40
     </tr>
     <tr>
         <td align="center">显示</td>
-        <td colspan="2" align="center">提供 Micro HDMI 接口：支持 1080p60 输出</td>
+        <td colspan="2" align="center">Micro HDMI x 1，4K60p</td>
     </tr>
     <tr>
         <td align="center">无线通讯</td>
-        <td align="center">板载一颗 ap6212/ap6256/aw-cm256sm WIFI/BT 模块</td>
+        <td align="center">ap6212/ap6256/aw-cm256sm WIFI/BT 模块</td>
     </tr>
     <tr>
         <td align="center">USB</td>
