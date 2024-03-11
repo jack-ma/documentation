@@ -14,7 +14,7 @@ We recommend using the official [Radxa Power PD 30W](../accessories/pd-30w). <im
 ### Boot Media
 
 Onboard eMMC or sd-card  
-If the board doesn't have an onboard eMMC you need to prepare a sd card with at least 8GB. [The eMMC is located on the back of the board](../hardware-design/hardware-interface#interface-overview), you can check if your board has this component.  
+If the board doesn't have an onboard eMMC([The eMMC is located on the back of the board](../hardware-design/hardware-interface#interface-overview)) you need to prepare a sd card with at least 8GB.  
 If you need to install an image with desktop environment, please use a sd card with at least 16GB, 32GB is recommended.
 
 ### microSD card reader

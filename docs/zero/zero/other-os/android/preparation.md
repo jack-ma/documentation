@@ -16,7 +16,7 @@ ZERO 采用 Type-C 接口供电，输入电压为 5V。
 ### 启动介质
 
 板载的 eMMC 或 sd 卡  
-如果开发板没有板载 eMMC 则需要准备一个至少 8GB 的 sd 卡. [eMMC 位于开发板背面](../../hardware-design/hardware-interface#接口总览)，您可以检查一下您的开发板是否具有这个元件。  
+如果开发板没有板载 eMMC（[eMMC 位于开发板背面](../../hardware-design/hardware-interface#接口总览)）则需要准备一个至少 8GB 的 sd 卡。  
 如果需要安装带有桌面环境的镜像，请使用至少 16GB 的 sd 卡，推荐使用 32GB。
 
 ### microSD 读卡器
