@@ -9,7 +9,7 @@ sidebar_position: 1
 ### Power Supply
 
 ZERO is powered by Type-C connector with 5V input voltage.  
-We recommend using the official Radxa Power PD 30W. <img src="/img/accessories/pd-30w.webp" alt="Radxa Power PD 30W" width="300" />
+We recommend using the official [Radxa Power PD 30W](../accessories/pd-30w). <img src="/img/accessories/pd-30w.webp" alt="Radxa Power PD 30W" width="300" />
 
 ### Boot Media
 

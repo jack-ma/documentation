@@ -21,7 +21,7 @@ import Etcher from '../../../common/general/\_etcher.mdx'
 - 电源供应
 
   - ZERO 采用 Type-C 接口供电，输入电压为5V。
-  - 推荐使用官方的 Radxa Power PD 30W 。<img src="/img/accessories/pd-30w.webp" alt="Radxa Power PD 30W" width="300" />
+  - 推荐使用官方的 [Radxa Power PD 30W](../accessories/pd-30w)。<img src="/img/accessories/pd-30w.webp" alt="Radxa Power PD 30W" width="300" />
 
 - USB 键盘和鼠标
 
