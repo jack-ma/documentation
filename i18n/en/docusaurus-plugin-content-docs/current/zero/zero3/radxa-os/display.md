@@ -8,7 +8,7 @@ import Display from "../../../common/radxa-os/\_display.mdx";
 
 Display setting is just available when you operating on the monitor, you can change the display setting by following ways.
 
-## 系统设置-显示设置
+## System Settings-Display Settings
 
 On the XFCE desktop, left-click `Applications` in the upper left corner, you can see `Settings`, click `Display` to enter the display settings
 
