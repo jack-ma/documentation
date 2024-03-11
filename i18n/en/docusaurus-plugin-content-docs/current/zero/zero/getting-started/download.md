@@ -6,12 +6,12 @@ sidebar_position: 5
 
 ## Hardware design
 
-### 1.3 Final prototype version
+### 1.3 (Final prototype version)
 
 - [v1.3 schematic pdf](https://dl.radxa.com/zero/docs/hw/RADAX_ZERO_V13_SCH_20210309.pdf) - Download Schematic for Radxa ZERO v1.3
 - [v1.3 SMD pdf](https://dl.radxa.com/zero/docs/hw/RADAX_ZERO_V13_SMD_20210309.pdf) - Download Points Chart for Radxa ZERO v1.3
 
-### 1.4 First production version
+### 1.4 (First production version)
 
 - [v1.4 schematic pdf](https://dl.radxa.com/zero/docs/hw/radxa_zero_v1400_schematic.pdf) - Download Schematic for Radxa ZERO v1.4
 - [v1.4 SMD pdf](https://dl.radxa.com/zero/docs/hw/radxa_zero_v1400_smd.pdf) - Download Points Chart for Radxa ZERO v1.4
@@ -24,11 +24,11 @@ Replaced FUSB340 with CH482
 Power LED can now be controlled by GPIOAO_8
 Therefore, pin 35 (GPIOAO_8) is not connected to the 40-pin header
 
-### 1.5 fine tune
+### 1.5 (Fine tune)
 
 Switch to other USB configuration channel controllers due to chip shortage
 
-### 1.51 fine tune
+### 1.51 (Fine tune)
 
 Power LED can now be controlled by GPIOAO_10
 Therefore, pin 35 (GPIOAO_8) is now connected to the 40-pin header

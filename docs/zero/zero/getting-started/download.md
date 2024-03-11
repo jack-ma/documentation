@@ -6,12 +6,12 @@ sidebar_position: 5
 
 ## 硬件设计
 
-### 1.3 最终原型版本
+### 1.3 （最终原型版本）
 
 - [v1.3 schematic pdf](https://dl.radxa.com/zero/docs/hw/RADAX_ZERO_V13_SCH_20210309.pdf) - 下载 Radxa ZERO v1.3 的原理图
 - [v1.3 SMD pdf](https://dl.radxa.com/zero/docs/hw/RADAX_ZERO_V13_SMD_20210309.pdf) - 下载 Radxa ZERO v1.3 的点位图
 
-### 1.4 首次量产版本
+### 1.4 （首次量产版本）
 
 - [v1.4 schematic pdf](https://dl.radxa.com/zero/docs/hw/radxa_zero_v1400_schematic.pdf) - 下载 Radxa ZERO v1.4 的原理图
 - [v1.4 SMD pdf](https://dl.radxa.com/zero/docs/hw/radxa_zero_v1400_smd.pdf) - 下载 Radxa ZERO v1.4 的点位图
@@ -24,11 +24,11 @@ sidebar_position: 5
 电源 LED 现在可由 GPIOAO_8 控制
 因此，引脚 35（GPIOAO_8）没有连接到 40 引脚针座上
 
-### 1.5 微调
+### 1.5 （微调）
 
 由于芯片短缺，改用其他 USB 配置通道控制器
 
-### 1.51 微调
+### 1.51 （微调）
 
 电源 LED 现在可由 GPIOAO_10 控制
 因此，引脚 35（GPIOAO_8）现在连接到了 40 针针座上
