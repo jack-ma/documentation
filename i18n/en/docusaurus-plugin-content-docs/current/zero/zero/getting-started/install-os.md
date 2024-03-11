@@ -30,7 +30,6 @@ import Etcher from '../../../common/general/\_etcher.mdx'
 - Monitor and HDMI cable
 
   - The ZERO is equipped with a micro HDMI connector. It is recommended to use a monitor that supports HDMI.
-  - HDMI EDID is used to determine the optimal display resolution. On monitors and TVs that support 1080p, this resolution will be selected. If 1080p is not supported, EDID will find the next available resolution. This selected mode applies to most monitors/TVs, but not all.
 
 - USB to TTL Serial Cable
 
