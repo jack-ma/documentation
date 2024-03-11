@@ -52,20 +52,7 @@ sidebar_position: 5
 除了上面的镜像经过官方充分测试外，其他镜像未经过严格测试，可能会存在未知问题，仅用于评估使用。
 :::
 
-更多镜像请查看： [Radxa ZERO Release](https://github.com/radxa-build/radxa-zero/releases)
-
-- [Radxa ZERO Ubuntu Build 23](https://github.com/radxa-build/radxa-zero/releases/download/b23/radxa-zero_ubuntu_jammy_kde_b23.img.xz)
-- [openSUSE Tumbleweed JeOS](http://download.opensuse.org/ports/aarch64/tumbleweed/appliances/openSUSE-Tumbleweed-ARM-JeOS-radxazero.aarch64.raw.xz)
-- [Slarm64 Core (unofficial slackware)](http://dl.slarm64.org/slackware/images/radxa_zero/slarm64-current-aarch64-core-radxa_zero-6.4.8-build-20230806.img.zst)
-- [Slarm64 Server (unofficial slackware)](http://dl.slarm64.org/slackware/images/radxa_zero/slarm64-current-aarch64-server-radxa_zero-6.4.8-build-20230806.img.zst)
-- [Slarm64 XFCE (unofficial slackware)](http://dl.slarm64.org/slackware/images/radxa_zero/slarm64-current-aarch64-xfce-radxa_zero-6.4.8-build-20230806.img.zst)
-- [Slarm64 Enlightenment (unofficial slackware)](http://dl.slarm64.org/slackware/images/radxa_zero/slarm64-current-aarch64-enlightenment-radxa_zero-5.14.5-build-20210917.img.zst)
-- [CRUX-ARM](http://dl.slarm64.org/crux/images/radxa_zero/crux-arm-3.6-aarch64-core-radxa_zero-5.19.1-build-20220814.img.zst)
-- [Manjaro Gnome](https://github.com/manjaro-arm/radxa-zero-images/releases/download/22.02/Manjaro-ARM-gnome-radxa-zero-22.02.img.xz)
-- [Manjaro KDE](https://github.com/manjaro-arm/radxa-zero-images/releases/download/22.02/Manjaro-ARM-kde-plasma-radxa-zero-22.02.img.xz)
-- [Manjaro Minimal](https://github.com/manjaro-arm/radxa-zero-images/releases/download/22.02/Manjaro-ARM-minimal-radxa-zero-22.02.img.xz)
-- [Manjaro More Desktop Environment](https://github.com/manjaro-arm/radxa-zero-images/releases/tag/22.02)
-- [TwisterOS Focal Beta5](https://drive.google.com/file/d/1T6GHK3DNbogkEXu7I7-kWqRdv7vltVDC/view?usp=sharing)
+更多镜像请查看： [第三方系统镜像](../other-os/3rd-images)
 
 ## 质量认证
 

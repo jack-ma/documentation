@@ -52,20 +52,7 @@ Pin 38 (GPIOAO_10) is now not connected to the 40-pin header
 Except for the above image which has been fully tested by the officials, the other mirrors have not been rigorously tested and may have unknown issues and are for evaluation use only.
 :::
 
-For more image, please check out： [Radxa ZERO Release](https://github.com/radxa-build/radxa-zero/releases)
-
-- [Radxa ZERO Ubuntu Build 23](https://github.com/radxa-build/radxa-zero/releases/download/b23/radxa-zero_ubuntu_jammy_kde_b23.img.xz)
-- [openSUSE Tumbleweed JeOS](http://download.opensuse.org/ports/aarch64/tumbleweed/appliances/openSUSE-Tumbleweed-ARM-JeOS-radxazero.aarch64.raw.xz)
-- [Slarm64 Core (unofficial slackware)](http://dl.slarm64.org/slackware/images/radxa_zero/slarm64-current-aarch64-core-radxa_zero-6.4.8-build-20230806.img.zst)
-- [Slarm64 Server (unofficial slackware)](http://dl.slarm64.org/slackware/images/radxa_zero/slarm64-current-aarch64-server-radxa_zero-6.4.8-build-20230806.img.zst)
-- [Slarm64 XFCE (unofficial slackware)](http://dl.slarm64.org/slackware/images/radxa_zero/slarm64-current-aarch64-xfce-radxa_zero-6.4.8-build-20230806.img.zst)
-- [Slarm64 Enlightenment (unofficial slackware)](http://dl.slarm64.org/slackware/images/radxa_zero/slarm64-current-aarch64-enlightenment-radxa_zero-5.14.5-build-20210917.img.zst)
-- [CRUX-ARM](http://dl.slarm64.org/crux/images/radxa_zero/crux-arm-3.6-aarch64-core-radxa_zero-5.19.1-build-20220814.img.zst)
-- [Manjaro Gnome](https://github.com/manjaro-arm/radxa-zero-images/releases/download/22.02/Manjaro-ARM-gnome-radxa-zero-22.02.img.xz)
-- [Manjaro KDE](https://github.com/manjaro-arm/radxa-zero-images/releases/download/22.02/Manjaro-ARM-kde-plasma-radxa-zero-22.02.img.xz)
-- [Manjaro Minimal](https://github.com/manjaro-arm/radxa-zero-images/releases/download/22.02/Manjaro-ARM-minimal-radxa-zero-22.02.img.xz)
-- [Manjaro More Desktop Environment](https://github.com/manjaro-arm/radxa-zero-images/releases/tag/22.02)
-- [TwisterOS Focal Beta5](https://drive.google.com/file/d/1T6GHK3DNbogkEXu7I7-kWqRdv7vltVDC/view?usp=sharing)
+For more images, check out: [third-party system images](../other-os/3rd-images)
 
 ## Quality certification
 
