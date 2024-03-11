@@ -168,12 +168,4 @@ X DISPLAY #     RFB PORT #      PROCESS ID      SERVER
 
 点击左上角的 `Session` 新建 VNC 连接## 音视频
 
-## 聊天视频
-
-## 游戏
-
-## 办公
-
-## Android In Container
-
 ![mobaxterm vnc ](/img/zero/zero3/mobaxterm-vnc.webp)
