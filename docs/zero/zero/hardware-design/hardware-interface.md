@@ -109,6 +109,11 @@ HDMI 的输出分辨率取决于显示器，Radxa ZERO 会根据显示器调整�
 ## WIFI/BT
 
 ZERO 板载一个 ap6212/ap6256/aw-cm256sm WiFi/BT 模块。
+|模组型号|WLAN标准|支持频段|WLAN标称最大吞吐量|蓝牙标准|
+| :------: | :------: | :------: | :------: | :------: |
+| ap6212 | 802.11 b/g/n | 2.4GHz | 72.2Mbps | Bluetooth 4.1 |
+| ap6256 | 802.11 a/b/g/n/ac | 2.4GHz/5GHz | 433.3Mbps | Bluetooth 5.2 |
+| aw-cm256sm | 802.11 a/b/g/n/ac | 2.4GHz/5GHz | 433.3Mbps | Bluetooth 4.2 |
 
 ## MicroSD 卡槽
 
