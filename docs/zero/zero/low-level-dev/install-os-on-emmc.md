@@ -54,7 +54,7 @@ sidebar_position: 5
 
    ![Android driver](/img/zero/zero2pro/Install-win-android-driver.webp)
 
-   [RZ USB Boot Helper](https://dl.radxa.com/zero/tools/windows/RZ_USB_Boot_Helper_V1.0.0.zip) 是一款由 Radxa 制作的 Windows 工具，用于 maskrom 通信。
+   [RZ USB Boot Helper](https://dl.radxa.com/zero/tools/windows/RZ_USB_Boot_Helper_V1.0.0.zip) 是一款由 Radxa 制作的 Windows 工具，用于 Maskrom 通信。
 
    该工具会在其界面上列出当前模式。现在我们使用的是 Maskrom 模式：
 

@@ -38,7 +38,7 @@ apt-get update -y && apt-get install -y openjdk-8-jdk python python-pip git-core
 pip install pycrypto
 ```
 
-配置java环境变量
+配置 java 环境变量
 
 ```bash
 export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
@@ -116,7 +116,7 @@ cp build/u-boot.bin.sd.bin ../../device/device/amlogic/faraday/upgrade/u-boot.bi
 cd -
 ```
 
-2. 编译AOSP
+2. 编译 AOSP
 
 ```bash
 source build/envsetup.sh

@@ -54,7 +54,7 @@ Please follow the steps below to enter Maskrom mode:
 
    ![Android driver](/img/zero/zero2pro/Install-win-android-driver.webp)
 
-   [RZ USB Boot Helper](https://dl.radxa.com/zero/tools/windows/RZ_USB_Boot_Helper_V1.0.0.zip) is a Windows utility made by Radxa for maskrom communication.
+   [RZ USB Boot Helper](https://dl.radxa.com/zero/tools/windows/RZ_USB_Boot_Helper_V1.0.0.zip) is a Windows utility made by Radxa for Maskrom communication.
 
    The tool will list the current mode on its interface. Right now we are using the Maskrom mode:
 

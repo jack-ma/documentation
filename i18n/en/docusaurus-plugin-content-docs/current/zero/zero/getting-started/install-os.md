@@ -51,7 +51,7 @@ Please go to [Download Summary](./download) to download the corresponding image 
 - The power supply interface of ZERO is [USB OTG](../hardware-design/hardware-interface), please use a Type-C cable to connect the power port and the adapter.
 
 :::tip
-The ZERO supports 5V. radxa recommends using the [Radxa Power PD30W](../accessories/pd-30w).
+The ZERO power supply supports 5V. radxa recommends using the [Radxa Power PD30W](../accessories/pd-30w).
 :::.
 
 ## Reference Documentation

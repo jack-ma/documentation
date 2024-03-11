@@ -30,7 +30,7 @@ import Etcher from '../../../common/general/\_etcher.mdx'
 - 显示器和 HDMI 线
 
   - ZERO 配备 micro HDMI 接口。 建议使用支持 HDMI 的显示器。
-  - HDMI EDID用于确定最佳显示分辨率。 在支持 1080p（或 4K/8K）的显示器和电视上，将选择此分辨率。 如果不支持 1080p，EDID会找到的下一个可用分辨率。 此选定模式适用于大多数显示器/电视，但不适用于所有显示器/电视。
+  - HDMI EDID用于确定最佳显示分辨率。 在支持 1080p 的显示器和电视上，将选择此分辨率。 如果不支持 1080p，EDID会找到的下一个可用分辨率。 此选定模式适用于大多数显示器/电视，但不适用于所有显示器/电视。
 
 - USB 转 TTL 串口线
 
@@ -51,7 +51,7 @@ import Etcher from '../../../common/general/\_etcher.mdx'
 - ZERO 的供电接口为 [USB OTG](../hardware-design/hardware-interface)，请使用 Type-C 线缆连接供电口和适配器。
 
 :::tip
-ZERO 支持 5V。瑞莎推荐使用 [Radxa Power PD30W](../accessories/pd-30w)。
+ZERO 支持 5V 电源输入。瑞莎推荐使用 [Radxa Power PD30W](../accessories/pd-30w)。
 :::
 
 ## 参考文档

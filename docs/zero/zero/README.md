@@ -6,8 +6,8 @@ sidebar_position: 40
 
 ## 产品介绍
 
-- Radxa Zero是一款基于Amlogic S905Y2的小尺寸高性能单板计算机，它可以运行安卓和Linux系统
-- Radxa Zero拥有一颗4核64位处理器，最高4GB(32bit) LPDDR4内存，支持4k@60 HDMI输出，支持WiFi和蓝牙，板载USB3.0、40-pin GPIO接口。
+- Radxa Zero 是一款基于 Amlogic S905Y2 的小尺寸高性能单板计算机，它可以运行安卓和 Linux 系统
+- Radxa Zero 拥有一颗 4 核 64 位处理器，最高 4GB(32bit) LPDDR4 内存，支持 4k@60 HDMI 输出，支持 WiFi 和蓝牙，板载 USB3.0、40-pin GPIO 接口。
 - 板载USB2.0 OTG接口，支持供电和数据传输。
 
 ## 实物照片
@@ -95,7 +95,7 @@ sidebar_position: 40
 
 ### [系统配置](/zero/zero/os-config)
 
-介绍如何使用通过工具（例如rsetup）或者命令去使用设备或者功能。
+介绍如何使用通过工具（例如 rsetup）或者命令去使用设备或者功能。
 
 ### [应用部署](/zero/zero/apps-deployment)
 
@@ -103,7 +103,7 @@ sidebar_position: 40
 
 ### [应用开发](/zero/zero/app-development)
 
-介绍上层应用开发，比如QT, WiringX, Mraa 等。
+介绍上层应用开发，比如 QT, WiringX, Mraa 等。
 
 ### [硬件开发](/zero/zero/hardware-design)
 
@@ -115,7 +115,7 @@ sidebar_position: 40
 
 ### [其他系统](/zero/zero/other-os)
 
-介绍非 Radxa OS的其他系统，例如 Android。
+介绍非 Radxa OS 的其他系统，例如 Android。
 
 ### [配件列表](/zero/zero/accessories)
 

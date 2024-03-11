@@ -12,15 +12,15 @@ import Serial from "../../../../common/general/\_serial.mdx"
 
 <Serial platform="aml" />
 
-## Adb 登录
+## ADB 登录
 
-ADB是一个连接 Android 设备与电脑的桥梁，用于在电脑上对 Android 设备进行全面的操作和管理。
+ADB 是一个连接 Android 设备与电脑的桥梁，用于在电脑上对 Android 设备进行全面的操作和管理。
 
 ### 有线登录
 
 #### 要求
 
-1. 一条USB 线
+1. 一条 USB 线
 2. 一台有安装 ADB 工具的电脑或笔记本
 3. 一个 Radxa ZERO
 

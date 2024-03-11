@@ -21,7 +21,7 @@ ZERO 有一个 32 bits LPDDR 4 芯片。ZERO 提供 512MB、1GB、2GB 和 4GB �
 
 ## USB OTG（电源接口）
 
-ZERO 采用 Type-C 接口供电，输入电压为5V。  
+ZERO 采用 Type-C 接口供电，输入电压为 5V。  
 推荐使用官方的 Radxa Power PD 30W 。<img src="/img/accessories/pd-30w.webp" alt="Radxa Power PD 30W" width="300" />  
 此接口可用于连接键盘、鼠标、U盘等外设。
 
@@ -33,13 +33,13 @@ ZERO 采用 Type-C 接口供电，输入电压为5V。
 
 #### GPIO 电压
 
-| GPIO       | 电压 | 最高 |
-| ---------- | ---- | ---- |
-| 所有的GPIO | 3.3V | 3.3V |
+| GPIO        | 电压 | 最高 |
+| ----------- | ---- | ---- |
+| 所有的 GPIO | 3.3V | 3.3V |
 
 #### GPIO 接口
 
-ZERO 提供了一个40 pin 针脚的 GPIO 座子，与市场上大多数的 SBC 配件兼容。
+ZERO 提供了一个 40 pin 针脚的 GPIO 座子，与市场上大多数的 SBC 配件兼容。
 
 **提示：实际兼容情况以使用情况为准。**
 
@@ -99,12 +99,12 @@ GPIOA_14 和 GPIOA_15 连接到了上拉电阻和 USB-C 控制器，因此不能
 
 ## Micro HDMI
 
-Radxa ZERO 板载一个micro HDMI的视频输出接口，需要使用micro HDMI 转标准HDMI 线连接显示器。  
-HDMI的输出分辨率取决于显示器，Radxa ZERO会根据显示器调整到最佳的显示分辨率。
+Radxa ZERO 板载一个 micro HDMI 的视频输出接口，需要使用 micro HDMI 转标准 HDMI 线连接显示器。  
+HDMI 的输出分辨率取决于显示器，Radxa ZERO 会根据显示器调整到最佳的显示分辨率。
 
 ## eMMC
 
-板载的 [eMMC位于开发板背面](../hardware-design/hardware-interface#接口总览)，用于 eMMC 启动或数据存储，您可以检查一下您的开发板是否具有这个元件。我们提供从无到 128GB 的选项。
+板载的 [eMMC 位于开发板背面](../hardware-design/hardware-interface#接口总览)，用于 eMMC 启动或数据存储，您可以检查一下您的开发板是否具有这个元件。我们提供从无到 128GB 的选项。
 
 ## WIFI/BT
 
