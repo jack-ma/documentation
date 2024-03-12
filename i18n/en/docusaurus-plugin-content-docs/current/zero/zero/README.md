@@ -64,7 +64,7 @@ sidebar_position: 40
     </tr>
     <tr>
         <td align="center">Power supply</td>
-        <td colspan="2" align="center">Requires 5V power adapter</td>
+        <td colspan="2" align="center">Requires 5V power adapter, recommended to use a power adapter with a rated maximum current greater than 2A</td>
     </tr>
     <tr>
         <td align="center">Size</td>

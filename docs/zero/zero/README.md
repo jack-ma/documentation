@@ -64,7 +64,7 @@ sidebar_position: 40
     </tr>
     <tr>
         <td align="center">供电</td>
-        <td colspan="2" align="center">需要 5V 电源适配器</td>
+        <td colspan="2" align="center">支持 5V 电源适配器，建议使用额定最大电流大于2A的电源适配器</td>
     </tr>
     <tr>
         <td align="center">尺寸</td>
