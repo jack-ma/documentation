@@ -1,18 +1,24 @@
 ## Using bsp
 
-BSP is a set of tools provided by Radxa to quickly build U-Boot Kernel. It is very convenient to use bsp to build your own U-Boot and Kernel.
-The following will show you how to use bsp to build the U-Boot of Radxa ZERO 3.
+[bsp](https://github.com/radxa-repo/bsp) is a set of tools provided by Radxa to quickly build a U-Boot Kernel. It is very easy to build your own U-Boot and Kernel using bsp.
 
-### [bsp Environment configuration](https://radxa-repo.github.io/bsp/)
+Below you will find an example of how to build a U-Boot with bsp using the Radxa ZERO 3.
 
-After completing the bsp environment configuration, you need to compile U-Boot once before pulling the relevant code from the repository.
-you can execute `. /bsp u-boot latest radxa-zero3` to build U-Boot, the path to the U-Boot source code is located in the bsp directory under `.src/u-boot`.
+### bsp environment configuration
+
+Please refer to [bsp environment configuration](https://radxa-repo.github.io/bsp) for environment configuration.
+Run `. /bsp` will show all the parameters and their explanations.
+After completing the bsp environment configuration, you need to compile the kernel once before pulling the kernel code from the repository, you can execute `. /bsp u-boot latest radxa-zero3` to build the kernel, the path to the U-Boot source code is located in `.src/u-boot/` in the bsp directory.
+
+:::info
+The second parameter of the bsp command is the U-Boot repository or branch to use, and the corresponding parameter for each SBC can be found by running `sudo apt list --installed |grep u-boot` to see the u-boot suffix.
+The third parameter is the SBC model
+:::.
+
+U-Boot can be built again after modifying the U-Boot source code:
 
 ```
-cd bsp
-mkdir output
-cd output
-../bsp --no-prepare-source u-boot latest radxa-zero3
+./bsp --no-prepare-source u-boot latest radxa-zero3
 
 Parameter Description:
 --no-prepare-source
@@ -55,6 +61,7 @@ If you want to use a custom `make` command to compile, please refer to the [Prep
 
 ## Reference
 
+- [bsp official documentation](https://radxa-repo.github.io/bsp)
 - [U-Boot | Build U-Boot](https://u-boot.readthedocs.io/en/latest/build/index.html)
 - [U-Boot | Amlogic](https://docs.u-boot.org/en/latest/board/amlogic/)
 - [U-Boot | Rockchip](https://u-boot.readthedocs.io/en/latest/board/rockchip/)
