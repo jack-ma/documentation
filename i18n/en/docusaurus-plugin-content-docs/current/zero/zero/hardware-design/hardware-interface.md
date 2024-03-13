@@ -106,12 +106,13 @@ The on-board [eMMC is located on the back of the development board](../hardware-
 
 ## WIFI/BT
 
-ZERO has an ap6212/ap6256/aw-cm256sm WiFi/BT module on board.
-|Module Model|WLAN Standard|Supported Frequency|WLAN Nominal Maximum Throughput|Bluetooth Standard|
-| :------: | :------: | :------: | :------: | :------: |
-| ap6212 | 802.11 b/g/n | 2.4GHz | 72.2Mbps | Bluetooth 4.1 |
-| ap6256 | 802.11 a/b/g/n/ac | 2.4GHz/5GHz | 433.3Mbps | Bluetooth 5.2 |
-| aw-cm256sm | 802.11 a/b/g/n/ac | 2.4GHz/5GHz | 433.3Mbps | Bluetooth 4.2 |
+ZERO has an ap6212/ap6256/aw-cm256sm WiFi/BT module on board,the specific parameters of each module are listed in the table below.
+
+| Module Model |   WLAN Standard   | Supported Frequency | WLAN Nominal Maximum Throughput | Bluetooth Standard |
+| :----------: | :---------------: | :-----------------: | :-----------------------------: | :----------------: |
+|    ap6212    |   802.11 b/g/n    |       2.4GHz        |            72.2Mbps             |   Bluetooth 4.1    |
+|    ap6256    | 802.11 a/b/g/n/ac |     2.4GHz/5GHz     |            433.3Mbps            |   Bluetooth 5.2    |
+|  aw-cm256sm  | 802.11 a/b/g/n/ac |     2.4GHz/5GHz     |            433.3Mbps            |   Bluetooth 4.2    |
 
 ## MicroSD slot
 
