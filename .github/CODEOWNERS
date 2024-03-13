@@ -274,3 +274,12 @@ i18n/en/docusaurus-plugin-content-docs/current/zero/zero/app-development/gpiod.m
 i18n/en/docusaurus-plugin-content-docs/current/zero/zero/other-os/README.md @CodeChenL
 i18n/en/docusaurus-plugin-content-docs/current/zero/zero/getting-started/download.md @CodeChenL
 i18n/en/docusaurus-plugin-content-docs/current/zero/zero/other-os/android/download.md @CodeChenL
+i18n/en/docusaurus-plugin-content-docs/current/zero/zero/getting-started/install-os.md @CodeChenL
+i18n/en/docusaurus-plugin-content-docs/current/zero/zero/radxa-os/locale.md @CodeChenL
+i18n/en/docusaurus-plugin-content-docs/current/zero/zero/low-level-dev/u-boot.md @CodeChenL
+eChenL
+i18n/en/docusaurus-plugin-content-docs/current/zero/zero/other-os/android/README.md @CodeChenL
+i18n/en/docusaurus-plugin-content-docs/current/zero/zero/getting-started/preparation.md @CodeChenL
+docs/zero/zero/radxa-os/display.md @CodeChenL
+i18n/en/docusaurus-plugin-content-docs/current/zero/zero/other-os/android/install-os.md @CodeChenL
+docs/zero/zero/radxa-os/autologin.md @CodeChenL
