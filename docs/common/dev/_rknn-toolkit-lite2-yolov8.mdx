@@ -6,7 +6,7 @@
 
 利用 rknn 部署YOLOv8 需要两个步骤
 
-- PC 端利用 rknn-toolkit2 将不同框架下的模型转换成rknn格式模型
+- PC 端利用 rknn-toolkit2 将不同框架下的模型转换成 rknn 格式模型
 - 板端利用 rknn-toolkit2-lite 的 Python API 板端推理模型
 
 ### PC端模型转换
@@ -42,7 +42,7 @@
 
   `<dtype>(可选)`: 指定为 `i8` 或 `fp`。`i8` 用于 int8 量化，`fp` 用于 fp16 量化。默认为 `i8`
 
-  `<output_rknn_path>(可选)`: 指定RKNN模型的保存路径，默认保存在与ONNX模型相同的目录中，文件名为 `yolov8.rknn`
+  `<output_rknn_path>(可选)`: 指定 RKNN 模型的保存路径，默认保存在与 ONNX 模型相同的目录中，文件名为 `yolov8.rknn`
 
 - 将 yolov8n.rknn 模型拷贝到板端
 
@@ -92,7 +92,7 @@
 
   `--img_folder`: 进行推理的图片库, 默认 ../model
 
-  `--img_save`: 是否保存推理结果图到./result, 默认 False
+  `--img_save`: 是否保存推理结果图到 ./result，默认 False
 
 - 所有推理结果保存在 ./result 中
 
