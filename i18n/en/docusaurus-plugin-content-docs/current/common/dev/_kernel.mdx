@@ -6,7 +6,41 @@ Below you will find an example of how to build a kernel with bsp using the Radxa
 
 ### bsp environment configuration
 
-Please refer to [bsp environment configuration](https://radxa-repo.github.io/bsp) for environment configuration.  
+#### Install dependencies
+
+```bash
+sudo apt update
+sudo apt install -y git qemu-user-static binfmt-support
+
+# Podman (recommend)
+sudo apt install -y podman podman-docker
+sudo touch /etc/containers/nodocker
+# Docker
+#sudo apt install docker.io
+
+# Optional dependencies for minor functions
+sudo apt install -y systemd-container
+```
+
+#### Get Code
+
+`bsp` uses the git submodule. Therefore, use the following command to get the code:
+
+```bash
+git clone --recurse-submodules https://github.com/radxa-repo/bsp.git
+```
+
+#### Understanding `bsp` Usage
+
+After getting the `bsp` code on your machine, you can run `bsp` to see the built-in help:
+
+```bash
+cd bsp
+./bsp
+```
+
+### Build Kernel
+
 After completing the bsp environment configuration, you need to compile the kernel once before pulling the kernel code from the repository.  
 Running `. /bsp` will show all the parameters and their explanations, and the command `bsp [options] <linux|u-boot> <profile> [product]` can be found from the prompt.  
 Using Radxa ZERO 3 as an example, you can run `uname -r` on the SBC to get the kernel name as `5.10.160-28-rk356x`.  

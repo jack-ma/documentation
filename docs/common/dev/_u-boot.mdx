@@ -6,7 +6,41 @@
 
 ### bsp 环境配置
 
-请参考[bsp 环境配置](https://radxa-repo.github.io/bsp)，进行环境配置。  
+#### 安装依赖
+
+```bash
+sudo apt update
+sudo apt install -y git qemu-user-static binfmt-support
+
+# Podman (推荐)
+sudo apt install -y podman podman-docker
+sudo touch /etc/containers/nodocker
+# Docker
+#sudo apt install docker.io
+
+# 次要功能的可选依赖
+sudo apt install -y systemd-container
+```
+
+#### 获取代码
+
+`bsp` 使用了 git 子模块。因此，请使用以下命令获取代码：
+
+```bash
+git clone --recurse-submodules https://github.com/radxa-repo/bsp.git
+```
+
+#### 了解 `bsp` 的用法
+
+在您的机器上获取了 `bsp` 代码后，您可以运行 `bsp` 查看内置帮助：
+
+```bash
+cd bsp
+./bsp
+```
+
+### 构建 U-Boot
+
 完成 bsp 环境配置后，需要先编译一次 U-Boot 才会从仓库拉取 U-Boot 代码。  
 直接运行 `./bsp` 会显示所有参数及其解释，根据提示可知命令 `bsp [options] <linux|u-boot> <profile> [product]`。  
 以 Radxa ZERO 3 为例，可以在 SBC 上执行 `sudo apt list --installed | grep u-boot` 获取 U-Boot 包名为 `u-boot-latest`。  
