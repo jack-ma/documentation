@@ -28,10 +28,6 @@ sudo apt install -y systemd-container
 
 #### Get Code
 
-:::info
-`bsp` The recommended environment is Debian or a Debian-based Linux distribution running on a 64-bit X86 architecture computer.
-:::.
-
 `bsp` uses the git submodule. Therefore, use the following command to get the code:
 
 ```bash
@@ -51,7 +47,7 @@ cd bsp
 
 After completing the bsp environment configuration, you need to compile the kernel once before pulling the kernel code from the repository.  
 Running `. /bsp` will show all the parameters and their explanations, and the command `bsp [options] <linux|u-boot> <profile> [product]` can be found from the prompt.  
-Using Radxa ZERO 3 as an example, you can run `uname -r` on the development board to get the kernel name as `5.10.160-28-rk356x`.  
+Using Radxa ZERO 3 as an example, flash the official image, wait for the system to run normally, and then execute `uname -r` on the development board to get the kernel name as `5.10.160-28-rk356x`.  
 Then put the kernel name suffix `rk356x` into the `profile` parameter of the bsp command, e.g. `. /bsp linux rk356x` to build the kernel.  
 The path to the kernel source code is located in the bsp directory at `.src/linux`, and the kernel can be built again after modifying the kernel source code:
 
