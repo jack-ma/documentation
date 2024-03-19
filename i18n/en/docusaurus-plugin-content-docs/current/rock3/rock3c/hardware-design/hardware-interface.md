@@ -30,7 +30,7 @@ voltage range
 | GPIO | 3.3V    | 3.63V     |
 | ADC  | 1.8V    | 1.98V     |
 
-#### GPIO 接口
+#### GPIO Interfaces
 
 ROCK 3C provides a 40pin GPIO socket, which is compatible with most sensor applications on the market.
 

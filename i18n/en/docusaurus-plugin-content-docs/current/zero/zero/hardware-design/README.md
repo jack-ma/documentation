@@ -2,8 +2,8 @@
 sidebar_position: 35
 ---
 
-# Hardware development
+# Hardware Development
 
-Introduces the hardware info of ZERO, such as hardware interface, support accessories and so on
+Introduces hardware information, such as hardware interfaces, supported accessories, etc.
 
 <DocCardList />
