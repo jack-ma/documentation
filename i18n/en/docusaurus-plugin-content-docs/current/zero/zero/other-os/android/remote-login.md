@@ -6,7 +6,7 @@ import Serial from "../../../../common/general/\_serial.mdx"
 
 # Remote login
 
-Introduce how to access SBC through a personal computer (PC) via serial port, adb, etc.
+Introduce how to access development board through a personal computer (PC) via serial port, adb, etc.
 
 ## Serial Login
 

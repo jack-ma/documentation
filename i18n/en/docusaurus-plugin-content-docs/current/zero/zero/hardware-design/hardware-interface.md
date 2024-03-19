@@ -37,7 +37,7 @@ This interface can be used to connect peripherals such as keyboard, mouse, USB f
 
 #### GPIO Interface
 
-The ZERO provides a 40 pin GPIO header that is compatible with most SBC accessories on the market.
+The ZERO provides a 40 pin GPIO header that is compatible with most peer accessories on the market.
 
 **Hint: Actual compatibility is based on usage. **
 
