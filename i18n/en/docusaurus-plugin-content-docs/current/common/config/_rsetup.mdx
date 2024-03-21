@@ -47,7 +47,7 @@ Pressing the `Enter` key, when the command area is not selected, will immediatel
 
 Use the `Space` key to select items. Items are prefixed with `[ ]` (indicating multiple selections) or `( )` (indicating single selection) to show the current selection status.
 
-:::caution
+:::tip
 Using the `Enter` key does not select any item. It executes the `<Ok>` command directly.
 :::.
 
@@ -79,43 +79,15 @@ Since RadxaOS provides some packages that conflict with the upstream Debian, it 
 
 ### Update Bootloader
 
-:::caution
-Updating the bootloader carries the risk that the system may not boot. Please perform this operation only if the data has been backed up.
-:::
-
 This option updates the bootloader on the disk where the root file system is located.
-
-:::tip
-This option only applies to scenarios where the boot device and the system device are the same.
-This option can be used if you are booting directly after installing the system (i.e., without setting up customized boot options).
-:::
 
 ### Update SPI Bootloader
 
-:::caution
-Updating the bootloader carries the risk that the system may not boot. Please perform this operation only if the data has been backed up.
-:::.
-
 This option updates the bootloader on the SPI Flash.
-
-:::tip
-This option is for scenarios where you need to boot from an NVMe SSD or USB mass storage device.
-Not all products support SPI booting.
-:::.
 
 ### Update eMMC Boot partition
 
-:::caution
-Updating the bootloader carries the risk that the system may not boot. Please perform this operation only if the data has been backed up.
-:::.
-
 This option updates the bootloader on the eMMC Boot partition.
-
-:::tip
-This option is for scenarios where you need to boot from an NVMe SSD or USB mass storage device.
-Not all products support booting from an eMMC Boot partition.
-Rockchip SoC-based products do not support eMMC Boot partition booting.
-:::
 
 ## Hardware
 
